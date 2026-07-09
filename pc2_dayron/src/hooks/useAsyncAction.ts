@@ -1,5 +1,5 @@
 import { useState } from "react";
-import type { getErrorMessage } from "../api/api";
+import type { getApiErrorMessage } from "../utils/apiError";
 
 
 export function useAsyncAction (defaultErrorMessage:string ) {
